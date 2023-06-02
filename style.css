@@ -24,6 +24,7 @@ Google fonts
     font-weight: 400;
     font-size: 18px;
     background-color: #C4DEFD;
+    color: #ffffff;
     
   }
   .theame-btn{
@@ -31,7 +32,20 @@ Google fonts
     border-radius: 8px;
     padding: 16px 24px !important;
     display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .theame-btn:hover{
+    background-color: #FFE492;
+    color: #ffffff;
+
+  }
+  .header-area .theame-btn{
     margin-left: 24px;
+  }
+  .header-area .theame-btn-two{
+    margin-left: 24px;
+
   }
   .theame-btn img{
     margin-left: 10px;
@@ -43,7 +57,7 @@ Google fonts
     padding: 16px 24px !important;
     display: inline-block;
     color: #043873 !important;
-    margin-left: 24px;
+    
   }
  
   /*-header css--*/
@@ -60,6 +74,10 @@ Google fonts
     font-weight: 500;
     
     padding: 16px 24px !important;
+  }
+  .header-area   .navbar-toggler{
+    border: none;
+    box-shadow: none;
   }
 
 
@@ -80,5 +98,31 @@ Google fonts
     .header-area .nav-link{
       padding: 16px 0;
     }
+   .header-area .nav-link{
+    position: relative;
+   }
+   .header-area .nav-link::after{
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+   }
 
   }
+
+
+  /*  hero css   */
+  .hero-text h3{
+    font-weight: 700;
+    font-size: 52px;
+    line-height:77px ;
+  }
+.hero-area{
+  background-image: url(img/Hero-section.png);
+  padding: 140px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-area .theame-btn{
+  margin-top: 30px;
+}
