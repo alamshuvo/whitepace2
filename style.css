@@ -16,14 +16,69 @@ color:
 Google fonts
 */
   @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;500;700&display=swap');
-  /*   basic css 
+  /*  
+   basic css 
   */
   body{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
     background-color: #C4DEFD;
-    color:#ffffff
+    
+  }
+  .theame-btn{
+    background: #4F9CF9;
+    border-radius: 8px;
+    padding: 16px 24px !important;
+    display: inline-block;
+    margin-left: 24px;
+  }
+  .theame-btn img{
+    margin-left: 10px;
+  }
+    
+  .theame-btn-two {
+    background-color: #FFE492;
+    border-radius: 8px;
+    padding: 16px 24px !important;
+    display: inline-block;
+    color: #043873 !important;
+    margin-left: 24px;
+  }
+ 
+  /*-header css--*/
+
+  
+  .header-area{
+    background-color: #043873;
+    padding: 16px 0;
+  }
+
+  .header-area .nav-link{
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    
+    padding: 16px 24px !important;
+  }
+
+
+  @media (max-width: 991px) {
+
+
+    .theame-btn{
+      width: 100%;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+
+    .theame-btn-two {
+      width: 100%;
+      text-align: center;
+    }
+    .header-area .nav-link{
+      padding: 16px 0;
+    }
 
   }
-  
